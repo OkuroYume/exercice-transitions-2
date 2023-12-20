@@ -5,3 +5,60 @@
 #ex01 .recipe:hover {
   transform: scale(1.1);
 }
+
+#ex02 .recipe-image {
+  transition: transform 0.3s 0.3s;
+}
+
+#ex02 .recipe-image:hover {
+  transform: rotate(5deg);
+}
+
+#ex03 .recipe-image {
+  transition: opacity 0.3s;
+}
+
+#ex03 .recipe:hover .recipe-image {
+  opacity: 70%;
+}
+
+#ex04 .recipe-title {
+  transition: transform 0.3s;
+}
+
+#ex04 .recipe:hover .recipe-title {
+  transform: translate(5%);
+}
+
+#ex05 .recipe-title {
+  transition: transform 0.3s 0.3s;
+}
+
+#ex05 .recipe:hover .recipe-title {
+  transform: translate(5%);
+}
+
+#ex06 .recipe {
+  transition: padding 0.3s 0.3s;
+}
+
+#ex06 .recipe:hover {
+  padding-bottom: 30px;
+}
+
+#ex07 .recipe {
+  transition: padding 0.3s 0.3s;
+}
+
+#ex07 .recipe:hover {
+  padding-bottom: 40px;
+}
+
+#ex07 .recipe-title {
+  transition: transform 0.3s;
+}
+
+#ex07 .recipe:hover .recipe-title {
+  transform: translatey(40px);
+  transition: transform 0.6s 0.6s;
+}
