@@ -62,3 +62,19 @@
   transform: translatey(40px);
   transition: transform 0.6s 0.6s;
 }
+
+#ex08 .recipe {
+  transition: box-shadow 0.3s;
+}
+
+#ex08 .recipe:hover {
+  box-shadow: 0 0 10px 3px rgba(79, 79, 79, 0.75);
+}
+
+#ex09 .recipe-title {
+  transition: transform 0.5s 0.5s;
+}
+
+#ex09 .recipe:hover .recipe-title {
+  transform: translatey(-160%);
+}
